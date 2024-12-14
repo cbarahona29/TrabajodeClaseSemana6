@@ -1,5 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
+ * To change this license header, choox se License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -17,7 +17,7 @@ public class Planilla {
  
     JOptionPane.showMessageDialog(null, "El nombre del empleado es: "+datos[i].getNombre());
     JOptionPane.showMessageDialog(null, "El salario del empleado es: "+datos[i].getSalario());
-    JOptionPane.showMessageDialog(null, "La bonificacion del empleado es: "+datos[i].getbonificaciones());
+//    JOptionPane.showMessageDialog(null, "La bonificacion del empleado es: "+datos[i].getbonificaciones());
     JOptionPane.showMessageDialog(null, "El salario final del empleado es: "+(datos[i].getbonificaciones()+datos[i].getSalario()));
         }
         
